@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="8zo-h4-XEw" id="NHT-cd-8na"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ClearClone" id="ncF-5h-PBv"/>
+                    <navigationItem key="navigationItem" title="ClearClone" id="ncF-5h-PBv">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="xep-tR-CUZ">
+                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="8zo-h4-XEw" id="3yg-zF-KfZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zrE-YB-dG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
