@@ -1,0 +1,6 @@
+framework module Pods_ClearClone {
+  umbrella header "Pods-ClearClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
